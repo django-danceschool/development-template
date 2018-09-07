@@ -1,0 +1,1 @@
+django-danceschool>=0.6
