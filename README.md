@@ -27,16 +27,12 @@ For full deployment instructions, including more details potential customization
    ``django-admin startproject --template https://raw.githubusercontent.com/django-danceschool/development-template/archive/master.zip <your_project_name>``
 
 3. Perform initial database migrations
-
-   ::
        
        cd <your_project_name>
        python manage.py migrate
 
 4. Create a superuser so that you can log into the admin interface (you
    will be prompted for username and password)
-
-   ::
 
        python manage.py createsuperuser
 
@@ -47,12 +43,8 @@ For full deployment instructions, including more details potential customization
    permissions that will make it easier for you to get started running
    your dance school right away.
 
-   ::
-
        python manage.py setupschool
 
 6. Run the server and try to log in!
-
-   ::
 
        python manage.py runserver
