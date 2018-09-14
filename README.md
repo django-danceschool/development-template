@@ -24,7 +24,7 @@ For full deployment instructions, including more details potential customization
    that you use the preexisting installation template as follows.  Make sure
    that you are in the folder where you would like your project to be located when you do this.
 
-       django-admin startproject --template https://raw.githubusercontent.com/django-danceschool/development-template/archive/master.zip <your_project_name>
+       django-admin startproject --template https://github.com/django-danceschool/development-template/archive/master.zip <your_project_name>
 
 3. Perform initial database migrations
        
