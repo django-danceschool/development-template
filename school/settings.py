@@ -106,6 +106,9 @@ INSTALLED_APPS = [
     'ckeditor_filebrowser_filer',
     'djangocms_text_ckeditor',
 
+    # For picking colors
+    'colorful',
+
     # This helps to make forms pretty
     'crispy_forms',
 
