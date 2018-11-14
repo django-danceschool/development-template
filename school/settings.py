@@ -79,7 +79,7 @@ INSTALLED_APPS = [
     'danceschool.prerequisites',
     'danceschool.news',
     'danceschool.faq',
-    'danceschool.banlist',    
+    'danceschool.banlist',
     'danceschool.guestlist',
 
     # ## Uncomment to add private lesson scheduling functionality:
