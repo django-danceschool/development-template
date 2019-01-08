@@ -89,6 +89,7 @@ INSTALLED_APPS = [
     # 'danceschool.payments.paypal',
     # 'danceschool.payments.stripe',
     # 'danceschool.payments.square',
+    # 'danceschool.payments.payatdoor',
 
     # These are required for the CMS
     'menus',
