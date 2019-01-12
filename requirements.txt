@@ -1,2 +1,2 @@
-django-danceschool>=0.8.1
+django-danceschool>=0.8.2
 -e git+https://github.com/divio/djangocms-text-ckeditor.git#egg=djangocms_text_ckeditor

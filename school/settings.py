@@ -81,6 +81,7 @@ INSTALLED_APPS = [
     'danceschool.faq',
     'danceschool.banlist',
     'danceschool.guestlist',
+    'danceschool.backups',
 
     # ## Uncomment to add private lesson scheduling functionality:
     # 'danceschool.private_lessons',
@@ -276,3 +277,7 @@ STATIC_URL = '/static/'
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = '{{ project_directory }}/media/'
+
+# If the danceschool.backups app is enabled, this setting defines the location
+# where backups are saved.
+BACKUP_LOCATION = '{{ project_directory }}/backups/'
