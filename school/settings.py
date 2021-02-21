@@ -81,6 +81,8 @@ INSTALLED_APPS = [
     'danceschool.faq',
     'danceschool.banlist',
     'danceschool.guestlist',
+    'danceschool.register',
+    'danceschool.merch',
     # 'danceschool.backups',
 
     # ## Uncomment to add private lesson scheduling functionality:
@@ -140,7 +142,7 @@ INSTALLED_APPS = [
     'dal_select2',
 
     # This allows for custom date range filtering of financials, etc.
-    'daterange_filter',
+    'rangefilter',
 
     # Makes Django CMS prettier
     'djangocms_admin_style',
